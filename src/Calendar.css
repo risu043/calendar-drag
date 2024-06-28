@@ -1,0 +1,19 @@
+.event {
+  padding: 2px;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+.events-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: 8px;
+  margin-top: 0.5rem;
+}
+.external-events {
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 1rem;
+  width: fit-content;
+  margin: 1rem;
+}
